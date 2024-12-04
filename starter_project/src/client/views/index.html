@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>Test</title>
-    </head>
 
-    <body>
+<head>
+    <meta charset="utf-8">
+    <title>Test</title>
+</head>
 
-        <header>
-            <div class="">
-                Logo
-            </div>
-            <div class="">
-                navigation
-            </div>
-        </header>
+<body>
 
-        <main>
-            <section>
-                <form id="urlForm">
-                    <input id="name" type="text" name="url" placeholder="Enter URL" required>
-                    <button id="submitButton" type="submit">Submit</button>
-                </form>
-                
-            </section>
+    <header>
+        <div class="">
+            Udacity Evaluate News NLP
+        </div>
+        <div class="">
+            navigation
+        </div>
+    </header>
 
-            <section>
-                <strong>Form Results:</strong>
-                <div id="results"></div>
-            </section>
-        </main>
+    <main>
+        <section>
+            <form id="urlForm">
+                <input id="url" type="text" name="url" placeholder="Enter URL" required>
+                <button id="submitButton" type="submit">Submit</button>
+            </form>
 
-        <footer>
-            <p>This is a footer</p>
-        </footer>
+        </section>
 
-    </body>
+        <section>
+            <strong>Form Results:</strong>
+            <div id="results"></div>
+            </sectiosn>
+    </main>
+
+    <footer>
+        <p>This is a footer</p>
+    </footer>
+
+    <script>
+        // Check that service workers are supported
+        // if ('serviceWorker' in navigator) {
+        //     // Use the window load event to keep the page load performant
+        //     window.addEventListener('load', () => {
+        //         navigator.serviceWorker.register('/service-worker.js');
+        //     });
+        // }
+    </script>
+</body>
+
 </html>
