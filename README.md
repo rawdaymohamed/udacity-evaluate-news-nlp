@@ -27,5 +27,8 @@ Please check this link to get an API key
 ## Running the app
 
 - Go to `http://localhost:3000`
-
 - **For deployment:** run `npm run build-prod`
+
+## Testing
+
+- Run `npm test`
